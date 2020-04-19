@@ -1,18 +1,22 @@
-require 'json'
-package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
+require "json"
+
+package = JSON.parse(File.read(File.join(__dir__, "package.json")))
 
 Pod::Spec.new do |s|
   s.name             = 'RNEpubjs'
   s.version          = package['version']
   s.summary          = 'react native epub js'
-  s.description      = 'react native for epub js'
-  s.requires_arc     = true
+  s.description  = <<-DESC
+                  react-native-rn-epubjs
+                   DESC
   s.license          = 'FreeBSD'
   s.homepage         = 'n/a'
-  s.source           = { :git => 'https://github.com/seongjoojin/epubjs-rn.git', :tag => 'master' }
   s.author           = 'Futurepress'
-  s.source_files     = 'ios/**/*.{h,m}'
-  s.platform         = :ios, "8.0"
+  s.platform         = :ios, "9.0"
+  s.source           = { :git => 'https://github.com/seongjoojin/epubjs-rn.git', :tag => 'master' }
+
+  s.source_files = "ios/**/*.{h,m,swift}"
+  s.requires_arc = true
 
   s.dependency "React"
   s.dependency "react-native-static-server"

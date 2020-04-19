@@ -7,18 +7,8 @@ Uses [EPUB.js](https://github.com/futurepress/epub.js) to parse and render epubs
 To use the components in your own app install via npm or yarn
 
 ```bash
-yarn add @seongjoojin/epubjs-rn @react-native-community/async-storage react-native-webview @lightbase/react-native-orientation rn-fetch-blob react-native-zip-archive react-native-static-server
+yarn add @seongjoojin/epubjs-rn
 ```
-
-**Important : The installed libraries also need to set each library**
-
-https://github.com/joltup/rn-fetch-blob#installation
-
-https://github.com/react-native-community/react-native-webview/blob/master/docs/Getting-Started.md
-
-https://github.com/lightbasenl/react-native-orientation#linking-native-dependencies
-
-https://github.com/futurepress/react-native-static-server/issues/57#issuecomment-486171799
 
 libraries pod install (ios)
 
