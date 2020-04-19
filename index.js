@@ -1,7 +1,7 @@
 import { NativeModules } from 'react-native';
-import Epub from './Epub';
-import Rendition from './Rendition';
-import Streamer from './Streamer';
+import Epub from './src/Epub';
+import Rendition from './src/Rendition';
+import Streamer from './src/Streamer';
 
 const { RnEpubjs } = NativeModules;
 
