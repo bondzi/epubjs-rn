@@ -1,6 +1,6 @@
 {
   "name": "@seongjoojin/epubjs-rn",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "repository": "https://github.com/seongjoojin/epubjs-rn",
   "main": "./components/index.js",
   "private": false,
@@ -56,6 +56,6 @@
   "files": [
     "components",
     "package.json",
-    "epubjs-rn.podspec"
+    "RNEpubjs.podspec"
   ]
 }

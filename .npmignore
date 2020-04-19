@@ -6,3 +6,4 @@ EpubReader
 .babelrc
 .babelrc.js
 package-lock.json
+yarn.lock
